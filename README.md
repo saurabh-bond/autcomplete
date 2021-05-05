@@ -6,7 +6,7 @@ Steps to run the project
 
 Clone project in your local using command 
 
-git clone https://github.com/<username>/autocomplete.git
+git clone https://github.com/your_username/autocomplete.git
 
 Frontend 
 ----
@@ -20,3 +20,8 @@ Backend
 1. Go to folder backend ( cd backend )
 2. Run migrations to create database ( php -r "require 'Migrations/DbMigrations.php';runMigration();" ) 
 3. Do mysql configurations in config/database.php ( setup your database, username and password )
+
+
+Working demo video
+--------
+https://user-images.githubusercontent.com/63736960/117191705-80d9fc00-adfe-11eb-8c4a-6bb8700404d5.mp4
