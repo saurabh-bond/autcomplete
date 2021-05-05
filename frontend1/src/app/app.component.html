@@ -1,0 +1,7 @@
+<span id="spnauto">
+<input type="text" (keyup)="autoComplete($event)" autocomplete="off"  class="form-control frm  m-2  " placeholder="Search (Min 3 character)" id="searchCourse"/>
+		 <ul class="list-group" id="ulautocomplete">
+			<li *ngFor="let item of autoCompletArr"  class="list-group-item"> <a  class="card-link  handcursor"  >{{item.name}}</a></li>
+
+          </ul>
+        </span>
